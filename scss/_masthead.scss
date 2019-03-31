@@ -4,7 +4,7 @@ header.masthead {
   padding-bottom: calc(10rem - #{$navbar-height});
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
-  background: linear-gradient(to bottom, #{fade-out($brown, .6)} 0%,#{fade-out($brown, .4)} 100%), url('../img/bay-bridge.jpg');
+  background: linear-gradient(to bottom, #{fade-out($brown, .9)} 0%,#{fade-out($brown, .1)} 100%), url('../img/bay-bridge.jpg');
   // background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -33,4 +33,5 @@ header.masthead {
 
 .img-self {
   height: 300px;
+  border-radius: 100%;
 }
